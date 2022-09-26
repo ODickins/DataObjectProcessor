@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>DDev DataObjectProcessor</Title>
+    <Authors>ODickins</Authors>
+    <Company>ODickins</Company>
+    <Description>DataObjectProcessor is a basic data access package to make it easier to work with differing data storage techniques.
+Designed initially to allow the quick processing of CSV files into a List of Generic Types but contrained to an interface
+so that other data storage techniques can be added later.</Description>
+    <Copyright>Oliver Dickins</Copyright>
+  </PropertyGroup>
+
+</Project>
