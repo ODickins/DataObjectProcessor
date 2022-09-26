@@ -12,6 +12,19 @@
 Designed initially to allow the quick processing of CSV files into a List of Generic Types but contrained to an interface
 so that other data storage techniques can be added later.</Description>
     <Copyright>Oliver Dickins</Copyright>
+    <PackageProjectUrl>https://github.com/ODickins/DataObjectProcessor/tree/master/DataObjectProcessor</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>D:\Visual Studio\DataObjectProcessor\DataObjectProcessor</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Data processing, CSV File, CSV, Object Mapping, Data Import</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
