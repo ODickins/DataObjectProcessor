@@ -18,6 +18,7 @@ so that other data storage techniques can be added later.</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Data processing, CSV File, CSV, Object Mapping, Data Import</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -89,3 +89,4 @@ If you find any tools within here helpful, consider buying me a beer - I'd appre
 ##### Change Log
 
 ###### 1.0.0 -> Initial Publish
+###### 1.0.1 -> Change to make it slightly more reliable. Was missing some properties.
