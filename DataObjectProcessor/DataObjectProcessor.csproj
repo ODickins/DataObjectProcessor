@@ -14,7 +14,7 @@ so that other data storage techniques can be added later.</Description>
     <Copyright>Oliver Dickins</Copyright>
     <PackageProjectUrl>https://github.com/ODickins/DataObjectProcessor/tree/master/DataObjectProcessor</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>D:\Visual Studio\DataObjectProcessor\DataObjectProcessor</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ODickins/DataObjectProcessor</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Data processing, CSV File, CSV, Object Mapping, Data Import</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

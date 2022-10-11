@@ -61,12 +61,8 @@ namespace DataObjectProcessor.CsvProcessor
                         try
                         {
                             Type t = Nullable.GetUnderlyingType(i.Value.PropertyType) ?? i.Value.PropertyType;
-
-                            object? safeValue = ((Nullable.GetUnderlyingType(i.Value.PropertyType) is not null) && (string.IsNullOrEmpty(csvValues[i.Key]) || csvValues[i.Key].Equals("\"\"")))
-                                ? null
-                                : Convert.ChangeType(csvValues[i.Key], t);
-
-                            i.Value.SetValue(returnObect, safeValue);
+                            object? safeValue = (string.IsNullOrEmpty(csvValues[i.Key]) || string.Equals(csvValues[i.Key], "\"\"")) ? null : Convert.ChangeType(csvValues[i.Key], t);
+                            i.Value.SetValue(returnObect, safeValue, null);
                         }
                         catch (Exception ex)
                         {
